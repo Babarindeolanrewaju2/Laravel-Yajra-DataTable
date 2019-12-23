@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::get('users', 'UsersController@index');
 
-Route::get('users-list', 'UsersController@usersList');
+Route::get('userslist', 'UsersController@usersList');
